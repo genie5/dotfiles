@@ -1,0 +1,97 @@
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+
+/*
+* #appmenu-button,
+* #star-button,
+* #feed-button,
+* #go-button,
+* #identity-box,
+* .autocomplete-history-dropmarker,
+* #appmenu-button,
+* #appmenu-button:hover:not(:active):not([open]),
+* #appmenu-button:hover:active,
+* #appmenu-button[open],
+* #scrollbutton-up,
+* #scrollbutton-down,
+* */
+
+{
+-moz-appearance: none !important;
+}
+
+/*#content browser{margin-right:-16px!important;overflow-y:scroll;overflow-x:hidden;}
+*/
+
+.appmenu-button-container
+{
+background: #0d131c !important;
+}
+#navigator-toolbox #TabsToolbar,
+{
+background: #0d131c !important;
+}
+#appmenu-toolbar-button,
+.tabbrowser-tab
+{
+font: 8pt "tewi" !important;
+background-color: #0d131c !important;
+text-shadow: none !important;
+color: #f44600 !important;
+}
+
+#urlbar
+{
+height: 22px;
+}
+
+#go-button,
+#star-button,
+.tab-close-button,
+.autocomplete-history-dropmarker,
+.tabbrowser-tab[label="New Tab"]:not([blah]) .tab-icon-image,
+.tabbrowser-tab .tab-icon-image
+{
+display: none !important;
+}
+
+.appmenu-toolbar-button
+{
+background: #0d131c !important;
+color: #5e5e5e !important;
+text-align: left !important;
+margin: 0 3px 0 0px !important;
+padding: 0 0 0 0 !important;
+}
+
+.toolbarbutton-menu-dropmarker
+{
+display: none !important;
+}
+
+#navigator-toolbox #TabsToolbar
+{
+background: #0d131c !important;
+padding: 0px 0px !important;
+height: 20px !important;
+}
+
+.tabbrowser-tab {
+text-align: center !important;
+color: #5e5e5e !important;
+background: #0d131c !important;
+margin: -2px 0px 0px 0px !important;
+padding: 0px 2px 0px 4px !important;
+border: 0 !important;
+border-left: 0px solid #5e5e5e !important;
+border-right: 0px solid #5e5e5e !important;
+border-radius: 0px !important;
+}
+.tabbrowser-tab[selected="true"] {
+background: #0d131c !important;
+border-left: 0px solid #5e5e5e !important;
+border-right: 0px solid #5e5e5e !important;
+padding: 0px 2px 0px 3px !important;
+color: #b3b2b5 !important;
+} 
+

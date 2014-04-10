@@ -1,0 +1,15 @@
+# Mute volume
+"amixer set Master toggle"
+    Control + Home
+
+#Increase volume
+"amixer set Master 2dB+"
+    Control + Prior
+
+#Decrease volume
+"amixer set Master 2dB-"
+    Control + Next
+
+#screenshot
+"scrot ~/Pictures/scrots/%Y-%m-%d-%I:%M:%S-%p-screenshot.png"
+    Print
