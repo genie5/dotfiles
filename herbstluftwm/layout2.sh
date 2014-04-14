@@ -1,4 +1,5 @@
 #!/bin/bash
+#genie
 
 #splits frame into 3x3 grid
 triple.sh -h

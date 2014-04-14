@@ -1,4 +1,5 @@
 #!/bin/sh
+# genie
 
 herbstclient pad ${1:-0} 20 0 0 0
 

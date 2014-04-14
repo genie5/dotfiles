@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# genie
 # this is a simple config for herbstluftwm
 
 function hc() {

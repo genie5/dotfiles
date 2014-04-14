@@ -1,4 +1,5 @@
 #!/bin/bash
+#genie
 
 #if [ "$(herbstclient layout)" = "╾─╼ vertical:" ] ;then
 	herbstclient split horizontal 0.5

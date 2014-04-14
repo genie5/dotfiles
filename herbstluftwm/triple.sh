@@ -1,4 +1,5 @@
 #!/bin/bash
+# genie
 
 while getopts ":h v" opt; do
 	case $opt in

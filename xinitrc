@@ -1,5 +1,7 @@
 #!/bin/sh
 #
+# genie
+#
 # ~/.xinitrc
 
 #sh ~/.fehbg &

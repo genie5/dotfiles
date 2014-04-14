@@ -1,5 +1,5 @@
 #!/bin/sh
-
+# genie
 
 a=$(herbstclient list_monitors | grep two)
 

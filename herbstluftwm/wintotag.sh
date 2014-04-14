@@ -1,4 +1,5 @@
 #!/bin/sh
+# genie
 
 #move focused window between layers
 

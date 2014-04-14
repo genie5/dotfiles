@@ -1,4 +1,5 @@
 #!/bin/bash
+#genie
 
 Loop() {
 	a=$(pgrep dmenu_run)

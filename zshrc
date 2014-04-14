@@ -1,3 +1,4 @@
+# genie
 
 export PATH=/usr/local/lib/cw:/bin:/usr/bin:/sbin:/usr/sbin:/home/mark/bin:/usr/local/bin
 export TERM='rxvt-unicode-256color'

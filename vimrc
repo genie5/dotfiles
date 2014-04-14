@@ -1,3 +1,5 @@
+" genie "
+
 set wrapscan
 filetype plugin on
 syntax on

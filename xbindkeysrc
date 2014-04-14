@@ -1,3 +1,5 @@
+# genie
+
 # Mute volume
 "amixer set Master toggle"
     Control + Home

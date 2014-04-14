@@ -1,4 +1,5 @@
 #!/bin/bash
+# genie
 
 triple.sh -h
 herbstclient focus right
