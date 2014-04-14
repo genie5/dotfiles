@@ -3,7 +3,7 @@
 # ~/.xinitrc
 
 #sh ~/.fehbg &
-xsetroot -solid \#254444
+xsetroot -solid \#687770
 xsetroot -cursor_name left_ptr &
 urxvtd -q -o -f
 xrdb -merge ~/.Xresources

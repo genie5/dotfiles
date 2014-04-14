@@ -1,0 +1,25 @@
+#!/bin/sh
+
+#fonts
+font='-artwiz-nu-medium-r-normal--11-110-75-75-p-90-iso8859-1'
+#-lucy-tewi-medium-r-normal--11-90-75-75-p-58-iso10646-1
+#-gohu-gohufont-medium-r-normal--11-80-100-100-c-60-iso8859-1
+#-artwiz-cure-medium-r-normal--11-110-75-75-p-90-iso8859-1
+
+9menu -font $font \
+    "URxvtc":"urxvtc" \
+    "Firefox":"~/source/firefox/firefox" \
+    "Apps":"9menu -popup -font $font \
+        'gcolor2':'gcolor2' \
+        'lxappearance':'lxappearance' \
+        'tint2conf':'tint2conf' \
+        'gbdfed':'gbdfed' \
+        'private':'~/source/firefox/firefox -private-window'" \
+    "Panels":"9menu -popup -font $font \
+        'tint2':'tint2' \
+        '2bbar':'/home/mark/bin/2bbar' \
+        '2bdzen2':'/home/mark/bin/2bdzen2'" \
+    "Sleep":"sudo pm-suspend" \
+    "Reboot":"sudo shutdown -r now" \
+    "Shutdown":"sudo shutdown -h now" \
+

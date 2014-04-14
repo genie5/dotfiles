@@ -13,7 +13,7 @@ static const float    resize_keep_aspect_ratio= 1.03;
 ///---Offsets---///
 /*0)offsetx          1)offsety
  *2)maxwidth         3)maxheight */
-static const uint8_t offsets[] = {0,0,0,0};
+static const uint8_t offsets[] = {20,20,40,40};
 ///---Colors---///
 /*0)focuscol         1)unfocuscol
  *2)fixedcol         3)unkilcol
@@ -22,6 +22,13 @@ static const uint8_t offsets[] = {0,0,0,0};
 static const char *colors[] = {"#707070","#353535","#0d131c","#c2060f","#c2060f","#0d131c","#0d131c"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = false;
+///---Cursor---///
+
+/* default position of the cursor:
+ * correct values are:
+ * TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, MIDDLE
+ * All these are relative to the current window. */
+#define CURSOR_POSITION BOTTOM_LEFT
 ///---Borders---///
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size    
@@ -168,13 +175,13 @@ static key keys[] = {
        DESKTOPCHANGE(     XK_1,                             0)
        DESKTOPCHANGE(     XK_2,                             1)
        DESKTOPCHANGE(     XK_3,                             2)
-       DESKTOPCHANGE(     XK_4,                             3)
-       DESKTOPCHANGE(     XK_5,                             4)
-       DESKTOPCHANGE(     XK_6,                             5)
-       DESKTOPCHANGE(     XK_7,                             6)
-       DESKTOPCHANGE(     XK_8,                             7)
-       DESKTOPCHANGE(     XK_9,                             8)
-       DESKTOPCHANGE(     XK_0,                             9)
+    // DESKTOPCHANGE(     XK_4,                             3)
+    // DESKTOPCHANGE(     XK_5,                             4)
+    // DESKTOPCHANGE(     XK_6,                             5)
+    // DESKTOPCHANGE(     XK_7,                             6)
+    // DESKTOPCHANGE(     XK_8,                             7)
+    // DESKTOPCHANGE(     XK_9,                             8)
+    // DESKTOPCHANGE(     XK_0,                             9)
 };
 static Button buttons[] = {
     {  MOD        ,XCB_BUTTON_INDEX_1,     mousemotion,   {.i=TWOBWM_MOVE}},
