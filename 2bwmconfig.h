@@ -1,5 +1,4 @@
-/* genie
-*/
+/* genie */
 
 ///---User configurable stuff---///
 ///---Modifiers---///
@@ -31,12 +30,12 @@ static const bool inverted_colors = false;
  * correct values are:
  * TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, MIDDLE
  * All these are relative to the current window. */
-#define CURSOR_POSITION BOTTOM_LEFT
+#define CURSOR_POSITION MIDDLE
 ///---Borders---///
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size    
  *3) Resize border size  */
-static const uint8_t borders[] = {2,5,5,5};
+static const uint8_t borders[] = {3,7,7,7};
 /* Windows that won't have a border.*/
 #define LOOK_INTO "WM_NAME"
 static const char *ignore_names[] = {"bar"};

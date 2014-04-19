@@ -17,3 +17,11 @@ set background=dark
 color default
 hi Normal ctermbg=NONE
 hi NonText ctermbg=NONE
+hi LineNr ctermfg=12
+hi Search ctermfg=0
+hi Conditional ctermfg=9
+hi Constant ctermfg=14
+hi Label ctermfg=9
+hi Repeat ctermfg=9
+hi Statement ctermfg=9
+hi Comment ctermfg=8

@@ -1,7 +1,8 @@
 # genie
 
 export PATH=/usr/local/lib/cw:/bin:/usr/bin:/sbin:/usr/sbin:/home/mark/bin:/usr/local/bin
-export TERM='rxvt-unicode-256color'
+#export TERM="linux"
+export PAGER="less"
 export EDITOR="vim"
 export LANG="en_US.utf8"
 export LANGUAGE="en_US.utf8"
@@ -12,20 +13,20 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
 alias ls="ls --color=auto"
 
 autoload -U colors && colors
-RPROMPT='%{$fg[red]%}%(?,,%{$fg_bold[red]%}:(%{$fg_no_bold[red]%}) %1~%{$reset_color%}'
-PROMPT='%{$fg[red]%}%# %{$reset_color%}'
+RPROMPT='%{$fg_bold[blue]%}%(?,,%{$fg_no_bold[red]%}:(%{$fg_bold[blue]%}) %1~%{$reset_color%}'
+PROMPT='%{$fg_bold[blue]%}%# %{$reset_color%}'
 
 source /home/mark/source/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 ZSH_HIGHLIGHT_STYLES[precommand]='fg=green'
-ZSH_HIGHLIGHT_STYLES[path]='fg=blue'
-ZSH_HIGHLIGHT_STYLES[path_prefix]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[path]='fg=magenta,bold'
+ZSH_HIGHLIGHT_STYLES[path_prefix]='fg=magenta,bold'
 ZSH_HIGHLIGHT_STYLES[path_approx]='fg=yellow'
-ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=yellow,bold'
-ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=yellow,bold'
-ZSH_HIGHLIGHT_STYLES[back-quoted-argument]='fg=yellow,bold'
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=blue'
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=red,bold'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=red,bold'
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument]='fg=red,bold'
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=magenta,bold'
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=magenta,bold'
 ZSH_HIGHLIGHT_STYLES[alias]='fg=green'
 ZSH_HIGHLIGHT_STYLES[builtin]='fg=green'
 ZSH_HIGHLIGHT_STYLES[function]='fg=green'
